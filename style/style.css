@@ -5,6 +5,7 @@
 }
 body {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
 }
 header {
@@ -74,7 +75,7 @@ a {
     color: #e5e7eb;
 }
 .header-image {
-    background-color: #777c84;
+    background-color: #1f2937;
 }
 .header-logo {
     font-size: 24px;
