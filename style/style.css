@@ -29,6 +29,10 @@ header {
     flex-direction: column;
     flex:1;
     padding-right: 40px;
+    padding-left: 100px;
+}
+.header-heading {
+    padding: 4px 0;
 }
 .header-para {
     padding: 20px 0;
@@ -46,7 +50,7 @@ ul {
 .sign-up {
     display: flex;
     height: 20px;
-    width: 120px;
+    width: 200px;
     padding: 20px;
     justify-content: center;
     align-items: center;
@@ -72,8 +76,8 @@ main {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    gap: 30px;
-    padding-bottom: 80px;
+    gap: 60px;
+    padding-bottom: 140px;
 }
 .card {
     display: flex;
@@ -140,6 +144,11 @@ a {
     font-size: 48px;
     font-weight: 900px;
 }
+.header-subheading {
+    font-size: 24px;
+    color: #e5e7eb;
+    font-weight: 600;
+}
 .header-para {
     font-size: 18px;
     color: #e5e7eb;
@@ -171,6 +180,7 @@ main {
 }
 .card-text {
     text-align: center;
+    color: #1f2937
 }
 .main-two {
     background-color: #e5e7eb;
@@ -181,6 +191,7 @@ main {
 }
 .author {
     font-family: 'Roboto', sans-serif;
+    color: #1f2937;
     font-weight: 900;
     font-size: 18px;
 }
